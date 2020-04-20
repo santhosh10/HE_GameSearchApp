@@ -19,6 +19,7 @@
   padding: 10px;
 }
 .game-title {
+  font-family: "Roboto Mono";
   font-size: 14px;
   font-weight: bold;
   padding-right: 50px;
@@ -37,9 +38,12 @@
   text-align: center;
   background-color: lightskyblue;
   font-size: 12px;
+  border-radius: 0 0 30px 30px;
 }
 .game-score span {
   display: block;
+  font-size: 14px;
+  font-weight: bold;
 }
 .game-editor-choice {
   font-family: "Roboto";
