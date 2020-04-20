@@ -1,0 +1,62 @@
+.game-tile-wrapper {
+  display: flex;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  background-color: #eff0f1;
+  box-shadow: 3px 3px 3px #aaaaaa;
+  border-radius: 10px;
+  float: left;
+}
+.game-tile div {
+  margin-bottom: 5px;
+}
+.game-tile {
+  flex: 1;
+  font-family: "Roboto Mono";
+  text-align: left;
+  position: relative;
+  padding: 10px;
+}
+.game-title {
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 50px;
+}
+.game-platform span {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+}
+.game-score {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  background-color: lightskyblue;
+  font-size: 12px;
+}
+.game-score span {
+  display: block;
+}
+.game-editor-choice {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  color: green;
+}
+.game-platform,
+.game-release-year,
+.game-genre {
+  font-size: 12px;
+}
+.game-genre span {
+  background-color: darkgray;
+  border-radius: 10px;
+  padding: 0 5px;
+  margin-right: 3px;
+  font-size: 12px;
+}
